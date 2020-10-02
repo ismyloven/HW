@@ -21,18 +21,18 @@ if(discount > 0 && discount <=100 && typeof(discount) === "number"){
 
 // Второе задание
 
-var stroka="Ismailov Nail";
+var cord ="Ismailov Nail";
 
 
-if (typeof(stroka) === "string" && stroka.length< 10){
+if (typeof(cord) === "string" && cord.length< 10){
 
-	for (var i = 0; i < stroka.length; i++ ){
-		console.log(stroka.charAt(i));
+	for (var i = 0; i < cord.length; i++ ){
+		console.log(cord.charAt(i));
 	}
 
-} else if (typeof(stroka) === "number" || stroka === undefined){
+} else if (typeof(cord) === "number" || cord === undefined){
 	console.log('Введите значение, используя буквы');
 }else {
-	console.log(stroka.substring(0,7)+ ' ' + stroka.substring(9));
+	console.log(cord.substring(0,7)+ ' ' + cord.substring(9));
 }
 
