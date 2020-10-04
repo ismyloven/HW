@@ -62,25 +62,26 @@ validatePassword("pass1223333");
 
 
 function checkNumber(numb) {
-	let newArray = [];
+	let arrayForNumber = [];
 	let newnumber = Number.isInteger((Math.sqrt(numb)));
 	if (newnumber == false && numb > 1 && numb % 2 !== 0) {
-		newArray[0] = true;
+		arrayForNumber[0] = true;
 	} else {
-		newArray[0] = false;
+		arrayForNumber[0] = false;
 	}
 	if (numb % 2 == 0) {
-		newArray[1] = true;
+		arrayForNumber[1] = true;
 	} else {
-		newArray[1] = false;
+		arrayForNumber[1] = false;
 	}
 	if (numb % 10 === 0) {
-		newArray[2] = true;
+		arrayForNumber[2] = true;
 	} else {
-		newArray[2] = false;
+		arrayForNumber[2] = false;
 	}
-	return console.log(newArray);
+	return console.log(arrayForNumber);
 }
 
 
-checkNumber();
+checkNumber(2);
+
