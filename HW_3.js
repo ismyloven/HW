@@ -1,33 +1,23 @@
 const apple = 12.50;
-let discount= 15;
-
-if(discount === undefined){
-
-	newApplePrice = apple;
+const discount = 15;
 
 
-} else if (discount >= 0 && discount <=100 && typeof(discount) === "number"){
-	var ApplePrice = apple - (apple * discount/ 100);
+if (discount >= 0 && discount <= 100 && typeof (discount) === "number") {
+	var ApplePrice = apple - (apple * discount / 100);
 	var newApplePrice = Math.floor(ApplePrice * 100) / 100;
-}  else {
+} else {
 	newApplePrice = "Введите корректно скидку";
 
 }
 
-console.log( newApplePrice);
+console.log(newApplePrice);
 
 
+const orange = 12.50;
+const markup = 15;
 
-
-let orange = 12.50;
-let markup = 15;
-
-if(markup === undefined){
-
-	newOrangePrice = orange;
-
-}else if(markup >= 0 && typeof(markup) === "number"){
-	var orangePrice = orange + (orange * markup/ 100);
+if (markup >= 0 && typeof (markup) === "number") {
+	var orangePrice = orange + (orange * markup / 100);
 	var newOrangePrice = Math.floor(orangePrice * 100) / 100;
 } else {
 
@@ -39,17 +29,15 @@ if(markup === undefined){
 console.log(newOrangePrice);
 
 
-
-
 let priceList = `Яблоки украинские.
 цена: ${newApplePrice} грн`;
 
 console.log(priceList);
 
 
-let appleTag = `Яблоки украинские.`;
+let appleRoster = `Яблоки украинские.`;
 
-let priceTag = `${appleTag} 
+let priceRegister = `${appleRoster} 
 цена: ${newApplePrice} грн`;
 
-console.log(priceTag);
+console.log(priceRegister);
