@@ -21,7 +21,7 @@ if (discount > 0 && discount <= 100 && typeof (discount) === "number") {
 
 // Второе задание
 
-var cord = "Ismailov Nail";
+var cord = "Ismailov xochet stat programmistom";
 
 
 if (typeof (cord) === "string" && cord.length < 10) {
@@ -33,6 +33,7 @@ if (typeof (cord) === "string" && cord.length < 10) {
 } else if (typeof (cord) === "number" || cord === undefined) {
 	console.log('Введите значение, используя буквы');
 } else {
-	console.log(cord.substring(0, 7) + ' ' + cord.substring(9));
+	console.log(cord.substring(0, 7));
+	console.log(cord.substring(9));
 }
 
