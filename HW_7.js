@@ -39,9 +39,9 @@ function validatePassword(pass) {
 		}
 
 		if (isNumeric(arr[i])) {
-			number = true
+			number = true;
 		} else {
-			string = true
+			string = true;
 		}
 	}
 
@@ -75,7 +75,7 @@ function checkNumber(numb) {
 		arrayForNumber[2] = false;
 	}
 	return positiveArr = arrayForNumber.find(function (e) {
-		return e == true
+		return e == true;
 	});
 
 }
