@@ -1,12 +1,53 @@
-// Первое задание
-const arr1 = "9977777777777";
-const arr2 = "01";
+let number1 = "123";
+let number2 = "45";
 
-var sum = parseFloat(arr1) + parseFloat(arr2);
+if (isNaN(number1) || isNaN(number2)) {
+	alert("Укажите толкьо цифры");
+} else {
+	let sum = sumOfNumbers(number1, number2);
+
+	console.log(`${number1} + ${number2} = ${sum}`);
+}
+
+function sumOfNumbers(number1, number2) {
+	let nam3 = [];
+	let arrLength;
+	let num1;
+	let num2;
+	let index;
+	let balancer = 0;
+
+	let arr1 = number1.split("");
+	let arr2 = number2.split("");
+
+	if (arr1.length < arr2.length) {
+		arrLength = arr2.length;
+	} else {
+		arrLength = arr1.length;
+	}
+
+	for (let i = 0; i < arrLength; i++) {
+		index = arrLength - 1 - i;
 
 
-console.log(sum);
 
+		num1 = +arr1[arr1.length - 1 - i] || 0;
+		num2 = +arr2[arr2.length - 1 - i] || 0;
+
+		nam3[index] = num1 + num2 + balancer;
+
+		if (nam3[index] > 9 && index !== 0) {
+			balancer = 1;
+			nam3[index] %= 10;
+		} else {
+			balancer = 0;
+		}
+
+
+	}
+
+	return nam3.join("");
+}
 
 
 // Второе задание
@@ -83,5 +124,4 @@ function checkNumber(numb) {
 }
 
 
-checkNumber(2);
-
+checkNumber(5);

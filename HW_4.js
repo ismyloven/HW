@@ -1,18 +1,18 @@
 // первое задание
 
-const apple = 12.50;
-const discount = 15;
+const apple = 12.500000000000;
+const discount = 100;
 var priceList = '';
+let ApplePrice;
+let newApplePrice;
 
-if (discount > 0 && discount <= 100 && typeof (discount) === "number") {
-	var ApplePrice = apple - (apple * discount / 100);
-	var newApplePrice = Math.floor(ApplePrice * 100) / 100;
+
+
+if (discount >= 0 && discount <= 100 && typeof (discount) === "number" ) {
+	ApplePrice = apple - (apple * discount / 100);
+	newApplePrice = (Math.floor(ApplePrice * 100) / 100).toFixed(2);
 	console.log(priceList = `Яблоки украинские.
 цена: ${newApplePrice} грн`);
-
-} else if (discount === 0) {
-	console.log(priceList = `Яблоки украинские.
-цена: ${apple} грн`);
 
 } else {
 
@@ -21,7 +21,7 @@ if (discount > 0 && discount <= 100 && typeof (discount) === "number") {
 
 // Второе задание
 
-var cord = "Ismailov xochet stat programmistom";
+var cord = "Ismailov ne xochet stat programmistom";
 
 
 if (typeof (cord) === "string" && cord.length < 10) {
@@ -36,4 +36,3 @@ if (typeof (cord) === "string" && cord.length < 10) {
 	console.log(cord.substring(0, 7));
 	console.log(cord.substring(9));
 }
-
