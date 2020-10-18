@@ -22,7 +22,7 @@ function getСofe() {
 		whatHave.espresso = firstIngredients;
 
 	} else {
-		console.log("Идем дальше");
+		alert("Уверен, что столько нужно для лате?");
 		whatHave.espresso = firstIngredients;
 
 	}
@@ -33,28 +33,28 @@ function getСofe() {
 		whatHave.milk = secondIngredients;
 
 	} else {
-		console.log("Идем дальше");
+		alert("Уверен, что столько нужно?");
 		whatHave.milk = secondIngredients;
 
 	}
-	thirdIngredients = +prompt("Сколько у тебя есть пены", "");
+	thirdIngredients = +prompt("Сколько у тебя есть пены ?", "");
 	if (thirdIngredients === cofeLatte.cream || thirdIngredients != null && thirdIngredients != "" && thirdIngredients.length <= 2) {
 		console.log("Будем варить кофе");
 		whatHave.cream = thirdIngredients;
 
 	} else {
-		console.log("Идем дальше");
+		alert("Столько пенки, серьезно?");
 		whatHave.cream = thirdIngredients;
 
 	}
 
-	fourthIngredients = +prompt("Сколько у тебя есть сахара", "");
-	if (fourthIngredients === cofeLatte.cream || fourthIngredients != null && fourthIngredients != "" && fourthIngredients.length <= 2) {
+	fourthIngredients = +prompt("Сколько у тебя есть сахара ?", "");
+	if (fourthIngredients === cofeLatte.sugar || fourthIngredients != null && fourthIngredients != "" && fourthIngredients.length <= 2) {
 		console.log("Будем варить кофе");
 		whatHave.sugar = fourthIngredients;
 
 	} else {
-		console.log("Идем дальше");
+		alert("Сахар вреден для здоровья");
 		whatHave.sugar = fourthIngredients;
 
 	}
@@ -79,5 +79,3 @@ function getСofe() {
 console.log(getСofe());
 
 console.log(whatHave);
-
-
