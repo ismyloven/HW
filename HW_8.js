@@ -14,9 +14,10 @@ let order;
 
 
 function getTicket() {
-	while (money != 0) {
+
 		money = +prompt("Стоимость билета 25 грн", "");
-		for (let i = 0; i < 100; i++) {
+                   if (money != 0) {
+		
 
 
 			if (money == cash25 || money != null && money != "" && money.length < 2) {
@@ -58,7 +59,6 @@ function getTicket() {
 
 			return getTicket();
 		}
-	}
 }
 
 getTicket(25, 50, 100);
