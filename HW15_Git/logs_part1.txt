@@ -1,0 +1,128 @@
+
+User@DESKTOP-JAJBDLH MINGW64 /c/git/HW (main)
+$ git reflog
+503e404 (HEAD -> main, origin/main, origin/HEAD, HW15_Git_2, HW15_Git) HEAD@{0}: merge HW15_Git: Fast-forward
+d9694d9 HEAD@{1}: checkout: moving from HW15_Git to main
+503e404 (HEAD -> main, origin/main, origin/HEAD, HW15_Git_2, HW15_Git) HEAD@{2}: merge HW15_Git_2: Fast-forward
+6b1d355 (HW15_Git_1) HEAD@{3}: merge HW15_Git_1: Fast-forward
+760374a HEAD@{4}: checkout: moving from main to HW15_Git
+d9694d9 HEAD@{5}: checkout: moving from HW15_Git_2 to main
+503e404 (HEAD -> main, origin/main, origin/HEAD, HW15_Git_2, HW15_Git) HEAD@{6}: commit: changes
+7d4f2b8 HEAD@{7}: checkout: moving from HW15_Git_1 to HW15_Git_2
+6b1d355 (HW15_Git_1) HEAD@{8}: checkout: moving from HW15_Git_2 to HW15_Git_1
+7d4f2b8 HEAD@{9}: commit: stylefolder_and_stylesheet
+6b1d355 (HW15_Git_1) HEAD@{10}: checkout: moving from HW15_Git_1 to HW15_Git_2
+6b1d355 (HW15_Git_1) HEAD@{11}: commit: index_changing
+cdb59a6 HEAD@{12}: commit: images_and_js
+d9694d9 HEAD@{13}: checkout: moving from main to HW15_Git_1
+d9694d9 HEAD@{14}: commit: my_loyaut_js
+760374a HEAD@{15}: pull: Merge made by the 'recursive' strategy.
+5eac218 HEAD@{16}: commit: delete_folder
+acbc457 HEAD@{17}: pull: Merge made by the 'recursive' strategy.
+b36ed30 (tag: oops) HEAD@{18}: reset: moving to HEAD
+b36ed30 (tag: oops) HEAD@{19}: checkout: moving from HW15_Git_1 to main
+:...skipping...
+503e404 (HEAD -> main, origin/main, origin/HEAD, HW15_Git_2, HW15_Git) HEAD@{0}: merge HW15_Git: Fast-forward
+d9694d9 HEAD@{1}: checkout: moving from HW15_Git to main
+503e404 (HEAD -> main, origin/main, origin/HEAD, HW15_Git_2, HW15_Git) HEAD@{2}: merge HW15_Git_2: Fast-forward
+6b1d355 (HW15_Git_1) HEAD@{3}: merge HW15_Git_1: Fast-forward
+760374a HEAD@{4}: checkout: moving from main to HW15_Git
+d9694d9 HEAD@{5}: checkout: moving from HW15_Git_2 to main
+503e404 (HEAD -> main, origin/main, origin/HEAD, HW15_Git_2, HW15_Git) HEAD@{6}: commit: changes
+7d4f2b8 HEAD@{7}: checkout: moving from HW15_Git_1 to HW15_Git_2
+6b1d355 (HW15_Git_1) HEAD@{8}: checkout: moving from HW15_Git_2 to HW15_Git_1
+7d4f2b8 HEAD@{9}: commit: stylefolder_and_stylesheet
+6b1d355 (HW15_Git_1) HEAD@{10}: checkout: moving from HW15_Git_1 to HW15_Git_2
+6b1d355 (HW15_Git_1) HEAD@{11}: commit: index_changing
+cdb59a6 HEAD@{12}: commit: images_and_js
+d9694d9 HEAD@{13}: checkout: moving from main to HW15_Git_1
+d9694d9 HEAD@{14}: commit: my_loyaut_js
+760374a HEAD@{15}: pull: Merge made by the 'recursive' strategy.
+5eac218 HEAD@{16}: commit: delete_folder
+acbc457 HEAD@{17}: pull: Merge made by the 'recursive' strategy.
+b36ed30 (tag: oops) HEAD@{18}: reset: moving to HEAD
+b36ed30 (tag: oops) HEAD@{19}: checkout: moving from HW15_Git_1 to main
+53da09e HEAD@{20}: checkout: moving from main to HW15_Git_1
+b36ed30 (tag: oops) HEAD@{21}: commit: my_loyaut
+b2cd77d HEAD@{22}: checkout: moving from HW15_Git to main
+edeb917 HEAD@{23}: checkout: moving from main to HW15_Git
+b2cd77d HEAD@{24}: reset: moving to HEAD
+b2cd77d HEAD@{25}: reset: moving to HEAD
+b2cd77d HEAD@{26}: reset: moving to HEAD
+b2cd77d HEAD@{27}: merge HW15_Git_2: Fast-forward
+53da09e HEAD@{28}: merge HW15_Git_1: Fast-forward
+4bc2069 HEAD@{29}: checkout: moving from HW15_Git_2 to main
+b2cd77d HEAD@{30}: commit: some changes in index
+39bb23c HEAD@{31}: commit: style
+53da09e HEAD@{32}: checkout: moving from HW15_Git_1 to HW15_Git_2
+53da09e HEAD@{33}: commit: some_changes_in_index
+dea9db0 HEAD@{34}: commit: images_and_js
+4bc2069 HEAD@{35}: checkout: moving from main to HW15_Git_1
+4bc2069 HEAD@{36}: commit: my_loyaut
+edeb917 HEAD@{37}: checkout: moving from HW15_Git to main
+edeb917 HEAD@{38}: checkout: moving from main to HW15_Git
+edeb917 HEAD@{39}: checkout: moving from HW15_Git to main
+edeb917 HEAD@{40}: checkout: moving from main to HW15_Git
+edeb917 HEAD@{41}: checkout: moving from HW15_Git to main
+edeb917 HEAD@{42}: checkout: moving from main to HW15_Git
+edeb917 HEAD@{43}: checkout: moving from main to main
+:...skipping...
+503e404 (HEAD -> main, origin/main, origin/HEAD, HW15_Git_2, HW15_Git) HEAD@{0}: merge HW15_Git: Fast-forward
+d9694d9 HEAD@{1}: checkout: moving from HW15_Git to main
+503e404 (HEAD -> main, origin/main, origin/HEAD, HW15_Git_2, HW15_Git) HEAD@{2}: merge HW15_Git_2: Fast-forward
+6b1d355 (HW15_Git_1) HEAD@{3}: merge HW15_Git_1: Fast-forward
+760374a HEAD@{4}: checkout: moving from main to HW15_Git
+d9694d9 HEAD@{5}: checkout: moving from HW15_Git_2 to main
+503e404 (HEAD -> main, origin/main, origin/HEAD, HW15_Git_2, HW15_Git) HEAD@{6}: commit: changes
+7d4f2b8 HEAD@{7}: checkout: moving from HW15_Git_1 to HW15_Git_2
+6b1d355 (HW15_Git_1) HEAD@{8}: checkout: moving from HW15_Git_2 to HW15_Git_1
+7d4f2b8 HEAD@{9}: commit: stylefolder_and_stylesheet
+6b1d355 (HW15_Git_1) HEAD@{10}: checkout: moving from HW15_Git_1 to HW15_Git_2
+6b1d355 (HW15_Git_1) HEAD@{11}: commit: index_changing
+cdb59a6 HEAD@{12}: commit: images_and_js
+d9694d9 HEAD@{13}: checkout: moving from main to HW15_Git_1
+d9694d9 HEAD@{14}: commit: my_loyaut_js
+760374a HEAD@{15}: pull: Merge made by the 'recursive' strategy.
+5eac218 HEAD@{16}: commit: delete_folder
+acbc457 HEAD@{17}: pull: Merge made by the 'recursive' strategy.
+b36ed30 (tag: oops) HEAD@{18}: reset: moving to HEAD
+b36ed30 (tag: oops) HEAD@{19}: checkout: moving from HW15_Git_1 to main
+53da09e HEAD@{20}: checkout: moving from main to HW15_Git_1
+b36ed30 (tag: oops) HEAD@{21}: commit: my_loyaut
+b2cd77d HEAD@{22}: checkout: moving from HW15_Git to main
+edeb917 HEAD@{23}: checkout: moving from main to HW15_Git
+b2cd77d HEAD@{24}: reset: moving to HEAD
+b2cd77d HEAD@{25}: reset: moving to HEAD
+b2cd77d HEAD@{26}: reset: moving to HEAD
+b2cd77d HEAD@{27}: merge HW15_Git_2: Fast-forward
+53da09e HEAD@{28}: merge HW15_Git_1: Fast-forward
+4bc2069 HEAD@{29}: checkout: moving from HW15_Git_2 to main
+b2cd77d HEAD@{30}: commit: some changes in index
+39bb23c HEAD@{31}: commit: style
+53da09e HEAD@{32}: checkout: moving from HW15_Git_1 to HW15_Git_2
+53da09e HEAD@{33}: commit: some_changes_in_index
+dea9db0 HEAD@{34}: commit: images_and_js
+4bc2069 HEAD@{35}: checkout: moving from main to HW15_Git_1
+4bc2069 HEAD@{36}: commit: my_loyaut
+edeb917 HEAD@{37}: checkout: moving from HW15_Git to main
+edeb917 HEAD@{38}: checkout: moving from main to HW15_Git
+edeb917 HEAD@{39}: checkout: moving from HW15_Git to main
+edeb917 HEAD@{40}: checkout: moving from main to HW15_Git
+edeb917 HEAD@{41}: checkout: moving from HW15_Git to main
+edeb917 HEAD@{42}: checkout: moving from main to HW15_Git
+edeb917 HEAD@{43}: checkout: moving from main to main
+edeb917 HEAD@{44}: commit: HW_13
+e697e8d HEAD@{45}: pull: Merge made by the 'recursive' strategy.
+07ec0ca (HW_12) HEAD@{46}: merge HW_12: Fast-forward
+5015dd1 HEAD@{47}: checkout: moving from HW_12 to main
+07ec0ca (HW_12) HEAD@{48}: checkout: moving from main to HW_12
+5015dd1 HEAD@{49}: checkout: moving from HW_12 to main
+07ec0ca (HW_12) HEAD@{50}: commit: Chaining homework - task two
+5015dd1 HEAD@{51}: checkout: moving from HW_12 to HW_12
+5015dd1 HEAD@{52}: checkout: moving from main to HW_12
+5015dd1 HEAD@{53}: commit: first_part
+e1bc534 HEAD@{54}: commit: 8.1
+6dab6b4 HEAD@{55}: pull: Merge made by the 'recursive' strategy.
+ac7a590 HEAD@{56}: commit: 8
+:
+
