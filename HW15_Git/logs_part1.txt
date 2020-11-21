@@ -1,0 +1,72 @@
+$ git reflog
+2a98a44 (HEAD -> develop, origin/develop, HW15_Git_2, HW15_Git_1, HW15_Git) HEAD@{0}: checkout: moving from HW15_Git to develop
+2a98a44 (HEAD -> develop, origin/develop, HW15_Git_2, HW15_Git_1, HW15_Git) HEAD@{1}: merge develop: Fast-forward
+ad6e3bf (origin/main, origin/HEAD) HEAD@{2}: checkout: moving from HW15_Git_2 to HW15_Git
+2a98a44 (HEAD -> develop, origin/develop, HW15_Git_2, HW15_Git_1, HW15_Git) HEAD@{3}: checkout: moving from HW15_Git_1 to HW15_Git_2
+2a98a44 (HEAD -> develop, origin/develop, HW15_Git_2, HW15_Git_1, HW15_Git) HEAD@{4}: merge develop: Fast-forward
+387fd85 HEAD@{5}: checkout: moving from develop to HW15_Git_1
+2a98a44 (HEAD -> develop, origin/develop, HW15_Git_2, HW15_Git_1, HW15_Git) HEAD@{6}: merge HW15_Git_2: Fast-forward
+387fd85 HEAD@{7}: merge HW15_Git_1: Fast-forward
+fb80cd2 (HW) HEAD@{8}: checkout: moving from HW15_Git to develop
+ad6e3bf (origin/main, origin/HEAD) HEAD@{9}: checkout: moving from develop to HW15_Git
+fb80cd2 (HW) HEAD@{10}: checkout: moving from HW15_Git_2 to develop
+2a98a44 (HEAD -> develop, origin/develop, HW15_Git_2, HW15_Git_1, HW15_Git) HEAD@{11}: commit: add changes in index file
+ecafe2c HEAD@{12}: commit: HW15_Git_2 add style folder and style file
+387fd85 HEAD@{13}: checkout: moving from HW15_Git_1 to HW15_Git_2
+387fd85 HEAD@{14}: commit: some changes in index.html
+:...skipping...
+2a98a44 (HEAD -> develop, origin/develop, HW15_Git_2, HW15_Git_1, HW15_Git) HEAD@{0}: checkout: moving from HW15_Git to develop
+2a98a44 (HEAD -> develop, origin/develop, HW15_Git_2, HW15_Git_1, HW15_Git) HEAD@{1}: merge develop: Fast-forward
+ad6e3bf (origin/main, origin/HEAD) HEAD@{2}: checkout: moving from HW15_Git_2 to HW15_Git
+2a98a44 (HEAD -> develop, origin/develop, HW15_Git_2, HW15_Git_1, HW15_Git) HEAD@{3}: checkout: moving from HW15_Git_1 to HW15_Git_2
+2a98a44 (HEAD -> develop, origin/develop, HW15_Git_2, HW15_Git_1, HW15_Git) HEAD@{4}: merge develop: Fast-forward
+387fd85 HEAD@{5}: checkout: moving from develop to HW15_Git_1
+2a98a44 (HEAD -> develop, origin/develop, HW15_Git_2, HW15_Git_1, HW15_Git) HEAD@{6}: merge HW15_Git_2: Fast-forward
+387fd85 HEAD@{7}: merge HW15_Git_1: Fast-forward
+fb80cd2 (HW) HEAD@{8}: checkout: moving from HW15_Git to develop
+ad6e3bf (origin/main, origin/HEAD) HEAD@{9}: checkout: moving from develop to HW15_Git
+fb80cd2 (HW) HEAD@{10}: checkout: moving from HW15_Git_2 to develop
+2a98a44 (HEAD -> develop, origin/develop, HW15_Git_2, HW15_Git_1, HW15_Git) HEAD@{11}: commit: add changes in index file
+ecafe2c HEAD@{12}: commit: HW15_Git_2 add style folder and style file
+387fd85 HEAD@{13}: checkout: moving from HW15_Git_1 to HW15_Git_2
+387fd85 HEAD@{14}: commit: some changes in index.html
+b0bb6fb HEAD@{15}: checkout: moving from develop to HW15_Git_1
+fb80cd2 (HW) HEAD@{16}: checkout: moving from HW15_Git_1 to develop
+b0bb6fb HEAD@{17}: commit: HW15_Git_1 add image folder and main js
+fb80cd2 (HW) HEAD@{18}: checkout: moving from develop to HW15_Git_1
+fb80cd2 (HW) HEAD@{19}: commit: develop:HW15_Git folder add loyaut
+ad6e3bf (origin/main, origin/HEAD) HEAD@{20}: checkout: moving from HW15_Git to develop
+ad6e3bf (origin/main, origin/HEAD) HEAD@{21}: checkout: moving from develop to HW15_Git
+ad6e3bf (origin/main, origin/HEAD) HEAD@{22}: Branch: renamed refs/heads/main to refs/heads/develop
+ad6e3bf (origin/main, origin/HEAD) HEAD@{24}: commit: remove
+45405de HEAD@{25}: commit: cache
+6e6753b HEAD@{26}: commit: first variant
+7a3572b HEAD@{27}: commit: recipe: HW_8
+c47cfb5 HEAD@{28}: checkout: moving from HW_12 to main
+07ec0ca (HW_12) HEAD@{29}: checkout: moving from main to HW_12
+c47cfb5 HEAD@{30}: commit: logs_part1.txt
+503e404 HEAD@{31}: merge HW15_Git: Fast-forward
+:...skipping...
+2a98a44 (HEAD -> develop, origin/develop, HW15_Git_2, HW15_Git_1, HW15_Git) HEAD@{0}: checkout: moving from HW15_Git to develop
+2a98a44 (HEAD -> develop, origin/develop, HW15_Git_2, HW15_Git_1, HW15_Git) HEAD@{1}: merge develop: Fast-forward
+ad6e3bf (origin/main, origin/HEAD) HEAD@{2}: checkout: moving from HW15_Git_2 to HW15_Git
+2a98a44 (HEAD -> develop, origin/develop, HW15_Git_2, HW15_Git_1, HW15_Git) HEAD@{3}: checkout: moving from HW15_Git_1 to HW15_Git_2
+2a98a44 (HEAD -> develop, origin/develop, HW15_Git_2, HW15_Git_1, HW15_Git) HEAD@{4}: merge develop: Fast-forward
+387fd85 HEAD@{5}: checkout: moving from develop to HW15_Git_1
+2a98a44 (HEAD -> develop, origin/develop, HW15_Git_2, HW15_Git_1, HW15_Git) HEAD@{6}: merge HW15_Git_2: Fast-forward
+387fd85 HEAD@{7}: merge HW15_Git_1: Fast-forward
+fb80cd2 (HW) HEAD@{8}: checkout: moving from HW15_Git to develop
+ad6e3bf (origin/main, origin/HEAD) HEAD@{9}: checkout: moving from develop to HW15_Git
+fb80cd2 (HW) HEAD@{10}: checkout: moving from HW15_Git_2 to develop
+2a98a44 (HEAD -> develop, origin/develop, HW15_Git_2, HW15_Git_1, HW15_Git) HEAD@{11}: commit: add changes in index file
+ecafe2c HEAD@{12}: commit: HW15_Git_2 add style folder and style file
+387fd85 HEAD@{13}: checkout: moving from HW15_Git_1 to HW15_Git_2
+387fd85 HEAD@{14}: commit: some changes in index.html
+b0bb6fb HEAD@{15}: checkout: moving from develop to HW15_Git_1
+fb80cd2 (HW) HEAD@{16}: checkout: moving from HW15_Git_1 to develop
+b0bb6fb HEAD@{17}: commit: HW15_Git_1 add image folder and main js
+fb80cd2 (HW) HEAD@{18}: checkout: moving from develop to HW15_Git_1
+fb80cd2 (HW) HEAD@{19}: commit: develop:HW15_Git folder add loyaut
+ad6e3bf (origin/main, origin/HEAD) HEAD@{20}: checkout: moving from HW15_Git to develop
+ad6e3bf (origin/main, origin/HEAD) HEAD@{21}: checkout: moving from develop to HW15_Git
+ad6e3bf (origin/main, origin/HEAD) HEAD@{22}: Branch: renamed refs/heads/main to refs/heads/develop
