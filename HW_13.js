@@ -28,10 +28,6 @@ var math = {
 		return this;
 	},
 
-	sum1: function (a) {
-		this.result = this.result + a;
-		return this;
-	},
 
 	minus: function (a) {
 		this.result = this.result - a;
@@ -49,5 +45,5 @@ var math = {
 	}
 }
 
-math.sum(1).sum1(1).minus(1).multiplay(1).showResult();
-console.log(math.result)
+math.sum(2).sum(2).minus(2).multiplay(2).showResult();
+console.log(math.result);
