@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>HW_18</title>
+	</head>
+	<body>
+	<div class="overall">
+	<input value="my button" type="button" /><br><br>
+	<input value="my button" type="button" /><br><br>
+	<input value="my button" type="button" />
+	</div>
+
+	<script>
+var myButton = document.querySelector(".overall");
+
+myButton.addEventListener("click", handler)
+
+function handler (event) {
+	if(event.target.style.color == 'red'){
+		event.target.style.color = '';
+	} else{
+		event.target.style.color = 'red';
+	}
+
+}
+</script>
+
+</body>
+</html>

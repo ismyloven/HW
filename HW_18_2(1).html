@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>HW_18</title>
+
+	<style>
+
+		.color {
+			background-color: green;
+		}
+
+		hr {
+			width: 200px;
+			float: left;
+		}
+
+	</style>
+
+</head>
+<body>
+<div>
+	<input class="overall" value="my button" type="button"/><br>
+	<hr>
+	<br>
+	<input class="overall" value="my button" type="button"/><br>
+	<hr>
+	<br>
+	<input class="overall" value="my button" type="button"/><br>
+	<hr>
+	<br>
+</div>
+<script>
+	var myButton = document.querySelector("div");
+
+	myButton.addEventListener("click", handler);
+
+	function handler(event) {
+		event.target.classList.toggle('color');
+	}
+
+</script>
+</body>
+</html>
